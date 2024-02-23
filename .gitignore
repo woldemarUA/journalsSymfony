@@ -6,6 +6,7 @@
 
 ### Symfony ###
 # Cache and logs (Symfony3)
+/src/Repository/.gitignore
 /var/*
 !/var/cache
 /var/cache/*
