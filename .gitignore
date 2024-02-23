@@ -1,0 +1,51 @@
+# Root .gitignore
+.env
+
+
+
+
+### Symfony ###
+# Cache and logs (Symfony3)
+/var/*
+!/var/cache
+/var/cache/*
+!/var/logs
+/var/logs/*
+!/var/sessions
+/var/sessions/*
+# Cache and logs (Symfony4+)
+/var/cache/*
+/var/log/*
+# Parameters
+/app/config/parameters.yml
+/app/config/parameters.ini
+/config/parameters.yml
+# Managed by Composer
+/vendor/
+# Managed by Symfony Flex
+/.env.local
+/.env.local.php
+/.env.*.local
+# Symfony private
+/var/sessions/
+# Symfony binary
+/bin/console
+/bin/phpunit
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+# Build assets
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+/public/build/
+# IDE and editors
+/.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+# Others
+/.sass-cache/
+/htdocs/
